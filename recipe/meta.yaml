@@ -18,8 +18,9 @@ build:
 
 requirements:
   build:
+    - {{ compiler('c') }}
+  host:
     - python
-    - toolchain
 
   run:
     - python
