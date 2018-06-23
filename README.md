@@ -17,14 +17,16 @@ for I/O heavy benchmarks and 80x for numerical programs.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cdecimal-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cdecimal-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cdecimal-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cdecimal-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cdecimal-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cdecimal-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cdecimal-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cdecimal-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/cdecimal-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cdecimal-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/cdecimal-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/cdecimal-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cdecimal/badges/version.svg)](https://anaconda.org/conda-forge/cdecimal)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cdecimal/badges/downloads.svg)](https://anaconda.org/conda-forge/cdecimal)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cdecimal-green.svg)](https://anaconda.org/conda-forge/cdecimal) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cdecimal.svg)](https://anaconda.org/conda-forge/cdecimal) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cdecimal.svg)](https://anaconda.org/conda-forge/cdecimal) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cdecimal.svg)](https://anaconda.org/conda-forge/cdecimal) |
 
 Installing cdecimal
 ===================
@@ -69,6 +71,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
