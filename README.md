@@ -3,7 +3,7 @@ About cdecimal
 
 Home: http://www.bytereef.org/mpdecimal/index.html
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: BSD-3-Clause
 
